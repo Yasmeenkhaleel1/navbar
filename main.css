@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Playfair+Display:ital,wght@1,600&family=Roboto:ital,wght@1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+width: calc(100% - 120px  );
+margin: auto ;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+body{
+    font-family: "poppins",sans-serif;
+        background-color: #d1cdcd;
+
+
+}
+.active{
+    font-weight: 800 ;
+}
+header{
+    background-color: #eee;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 9;
+    box-shadow: 0px 1.64744px 8.2372px 0px;
+
+ padding: 20px;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+header .logo a{
+    color: #5458e8;
+}
+ header nav ul{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style-type: none;
+ }
+
+ header nav ul li a{
+    color: #101928;
+ }
+ header .auth a{
+
+    padding: 5.354px 20.181px;
+    border-radius: 15px;
+     font-family: 'Inter',sans-serif;
+     display: flex;
+     align-items: center;
+
+ }
+ header .auth .login{
+      color: #5458e8;
+      border: 2px solid #5458e8;
+ }
+ header .auth {
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+ }
+ header .auth .register{
+    background-color: #5458e8;
+    color:#fff;
+    border: 2px solid #5458e8;
+ }
